@@ -8,6 +8,9 @@
 "#" => mode privilégié
 
 ## Commandes :
+
+show ? : affiche les commandes
+
 enable : passe du mode utilisateur au mode privilégié ('>' => '#')
 
 disable : passe du mode privilégié au mode utilisateur ('#' => '>')
@@ -20,6 +23,8 @@ line : passe au mode configuration ligne, suivie du type et du numéro de la lig
      console {0..+}
      FastEthernet 0/1 
   
-exit : passe au sous-mode plus haut
+exit : passe au sous-mode plus haut.
+
+line vty {0..+} {1..+} : limite le nombre de connection en ssh ou telnet
 
 end ou CTRL+z : passe d'un sous mode au mode d'éxecution normal
