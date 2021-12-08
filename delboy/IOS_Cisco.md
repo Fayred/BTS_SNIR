@@ -20,3 +20,5 @@
 - exit : passe au sous-mode plus haut.
 - line vty {0..+} {1..+} : limite le nombre de connection en ssh ou telnet
 - end ou CTRL+z : passe d'un sous mode au mode d'éxecution normal
+- show running-config : affiche la configuration utilisé actuellement
+- show startup-config : affiche le contenu actuel de la mémoire nvram
