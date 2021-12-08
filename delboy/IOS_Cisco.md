@@ -23,4 +23,4 @@
 - show running-config : affiche la configuration utilisé actuellement
 - show startup-config : affiche le contenu actuel de la mémoire nvram
 - hostname [nouveau_nom_hote] : change le nom d'hôte (à lancer en mode config terminal).
-- password [password] : permet de sécurité le port console avec un mot de passe pour le mode privilégié (login active la fonctionnalité).
+- password [password] : permet de sécurité le port console avec un mot de passe (login active la fonctionnalité).
