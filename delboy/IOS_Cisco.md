@@ -9,7 +9,7 @@
 
 ## Commandes :
 
-- show ? : affiche les commandes
+- ? : affiche les commandes
 - enable : passe du mode utilisateur au mode privilégié ('>' => '#')
 - disable : passe du mode privilégié au mode utilisateur ('#' => '>')
 - configure terminal : global mode => Switch(config)#
