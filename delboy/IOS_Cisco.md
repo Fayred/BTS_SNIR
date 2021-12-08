@@ -14,7 +14,7 @@
 - disable : passe du mode privilégié au mode utilisateur ('#' => '>')
 - configure terminal : global mode => Switch(config)#
 - configure vlan 1 : mode interface => Switch(config-if)#
--line : passe au mode configuration ligne, suivie du type et du numéro de la ligne de gestion à laquelle on veut accéder
+- line : passe au mode configuration ligne, suivie du type et du numéro de la ligne de gestion à laquelle on veut accéder
     - console {0..+}
     - FastEthernet 0/1 
 - exit : passe au sous-mode plus haut.
