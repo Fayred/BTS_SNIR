@@ -43,3 +43,4 @@ Utiliser putty, port série, sélectionner le COM utilisé pour la console, rep�
 - no ip domain-lookup : permet de désactiver la recherche DNS.
 - banner motd [message]   : affiche un message de bannière à chaque connexion (MOTD: Message Of The Day ou message du jour).
 - banner motd [message] # : on peut utiliser le "#" pour écrire sur plusieurs lignes, ensuite quand on a terminé de rentré le contenu de la bannière il suffit de terminé par "#".
+- ip adresse [ip_addr] [masque_de_sous_reseaux] : attribut une adresse ip et un masque de sous-réseau (en mode interface)
