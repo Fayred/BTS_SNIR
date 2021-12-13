@@ -30,8 +30,8 @@ Utiliser putty, port série, sélectionner le COM utilisé pour la console, rep�
     - console {0..+}
     - FastEthernet 0/1 
 - line vty {0..+} {1..+} : limite le nombre de connection en ssh ou telnet.
-- exit CTRL+Z : passe au sous-mode plus haut.
-- end : passe d'un sous mode au mode d'éxecution normal.
+- exit : passe au sous-mode plus haut.
+- end ou CTRL+Z : passe d'un sous mode au mode d'éxecution normal.
 - interface vlan {0..+} : mode interface sur une vlan.
 - show running-config : affiche la configuration utilisé actuellement.
 - show startup-config : affiche le contenu actuel de la mémoire nvram.
