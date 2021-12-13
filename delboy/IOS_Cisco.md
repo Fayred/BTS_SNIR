@@ -26,3 +26,4 @@
 - password [password] : permet de sécuriser le port console avec un mot de passe (login active la fonctionnalité).
 - enable password [password] : permet de sécuriser le mode privilégié avec un mot de passe. 
 - no ip domain-lookup : permet de désactiver la recherche DNS
+- banner motd [message] : affiche un message de bannière à chaque connexion (MOTD: Message Of The Day ou message du jour).
