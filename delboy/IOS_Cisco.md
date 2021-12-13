@@ -38,6 +38,7 @@ Utiliser putty, port série, sélectionner le COM utilisé pour la console, rep�
 - password [password] : permet de sécuriser le port console avec un mot de passe (login active la fonctionnalité).
 - enable password [password] : permet de sécuriser le mode privilégié avec un mot de passe.
 - enable secret [password] : permet de sécuriser le mode privilégié avec un mot de pass + mdp stocké dans le running-config de mannière hashé. 
+- no enable password/secret : suppr les mdp 
 - no ip domain-lookup : permet de désactiver la recherche DNS.
 - banner motd [message]   : affiche un message de bannière à chaque connexion (MOTD: Message Of The Day ou message du jour).
 - banner motd [message] # : on peut utiliser le "#" pour écrire sur plusieurs lignes, ensuite quand on a terminé de rentré le contenu de la bannière il suffit de terminé par "#".
