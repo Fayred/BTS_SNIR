@@ -29,9 +29,10 @@ Utiliser putty, port série, sélectionner le COM utilisé pour la console, rep�
 - line : passe au mode configuration ligne, suivie du type et du numéro de la ligne de gestion à laquelle on veut accéder.
     - console {0..+}
     - FastEthernet 0/1 
-- exit : passe au sous-mode plus haut.
 - line vty {0..+} {1..+} : limite le nombre de connection en ssh ou telnet.
+- exit : passe au sous-mode plus haut.
 - end ou CTRL+Z : passe d'un sous mode au mode d'éxecution normal.
+- interface vlan {0..+} : mode interface sur une vlan.
 - show running-config : affiche la configuration utilisé actuellement.
 - show startup-config : affiche le contenu actuel de la mémoire nvram.
 - hostname [nouveau_nom_hote] : change le nom d'hôte (à lancer en mode config terminal).
