@@ -37,7 +37,7 @@ Utiliser putty, port série, sélectionner le COM utilisé pour la console, rep�
 - show startup-config : affiche le contenu actuel de la mémoire nvram.
 - hostname [nouveau_nom_hote] : change le nom d'hôte (à lancer en mode config terminal).
 - password [password] : permet de sécuriser le port console avec un mot de passe (login active la fonctionnalité).
-- line console 0 : mode config console.
+- line console 0 : mode config console/line.
 - enable password [password] : permet de sécuriser le mode privilégié avec un mot de passe (besoin de : line console 0 ).
 - enable secret [password] : permet de sécuriser le mode privilégié avec un mot de pass + mdp stocké dans le running-config de mannière hashé. 
 - no enable password/secret : suppr les mdp 
