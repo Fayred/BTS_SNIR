@@ -9,7 +9,7 @@ $ sudo minicom
 ```
 
 # Connexion sous Windows :
-Utiliser putty, port série, sélectionner le COM utilisé pour la console, repéré dans le gestionnaire de périphérique.
+Utiliser putty, port série, sélectionner le COM utilisé pour la console repéré dans le gestionnaire de périphérique.
 
 ## Modes :
 - Mode de configuration de ligne : utilisé pour configurer l'accès par la console, par SSH, par Telnet, ou l'accès AUX.
