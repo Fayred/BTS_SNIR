@@ -173,6 +173,8 @@ Les interfaces de type Ethernet/IEEE 802.3 peuvent être de type :
 - Gigabit Ethernet (IEEE 802.3ab ou IEEE 802.3z)
 - 10-Gigabit Ethernet (IEEE 802.3ae)
 
+La configuration basique de ces interfaces est très simple, et se résume à ces commandes :
+
 - ``interface {Ethernet | FastEthernet} {numéro | slot/numéro}`` <br>
 **Mode de configuration globale** <br>
 Permet de passer dans le mode de configuration d’interface
