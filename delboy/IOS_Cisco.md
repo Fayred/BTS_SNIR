@@ -1,6 +1,6 @@
 # IOS CISCO
 
-## Connexion sous Linux :
+## Connexion sous Linux (via RS232) :
 ```
 $ sudo apt update && sudo apt install minicom
 $ dmesg | grep USB # récup du périphérique (exemple : /dev/ttyUSBO)
@@ -8,7 +8,7 @@ $ sudo minicom -s # (config port série | vitesse 9600 bauds | port série : /de
 $ sudo minicom
 ```
 
-## Connexion sous Windows :
+## Connexion sous Windows (via RS232) :
 Utiliser putty, port série, sélectionner le COM utilisé pour la console repéré dans le gestionnaire de périphérique.
 
 --------------------------------------------------------------------------------------------------------------------------------
